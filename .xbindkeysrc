@@ -1,0 +1,6 @@
+# Button 8 sends Control + PageDown
+"xvkbd -text '\C\[Next]'" # Sends Ctrl-PgDn
+b:8
+# Button 9 sends Control + PageUp
+"xvkbd -text '\C\[Prior]'" # Sends Ctrl-PgUp
+b:9
