@@ -19,7 +19,7 @@ apt update
 apt install google-chrome-stable
 apt install far2l
 apt install telegram
-apt install gnome-tweaks chrome-gnome-shell vim mc htop git tmux curl fish nmon ncdu tilix 
+apt install gnome-tweaks chrome-gnome-shell vim mc htop git tmux curl fish nmon ncdu tilix xbindkey xautomation 
 curl -L https://get.oh-my.fish | fish
 cp -rf .tmux.conf ~/.tmux.conf
 cp -rf .vimrc ~/.vimrc

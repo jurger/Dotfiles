@@ -1,6 +1,13 @@
-# Button 8 sends Control + PageDown
-"xvkbd -text '\C\[Next]'" # Sends Ctrl-PgDn
-b:8
-# Button 9 sends Control + PageUp
-"xvkbd -text '\C\[Prior]'" # Sends Ctrl-PgUp
+#"xvkbd -text '\C\A\[Up]'" # 
+#b:9
+# 
+#"xvkbd -text '\C\A\[Down]'" # 
+#b:8
+
+#"xvkbd -text '\[Super_L]\[Right]'" # 
+#
+"xte 'keydown Super_L'  'keydown Page_Up' 'keyup Super_L' 'keyup Page_Up'" 
 b:9
+# 
+"xte 'keydown Super_L'  'keydown Page_Down' 'keyup Super_L' 'keyup Page_Down'" 
+b:8
