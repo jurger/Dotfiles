@@ -1,1 +1,1 @@
-# wget https://github.com/zurq/install/archive/master.zip
+## wget https://github.com/zurq/install/archive/master.zip
