@@ -4,7 +4,7 @@ syntax on
 "https://github.com/VundleVim/Vundle.vim
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 Plugin 'vim-airline/vim-airline'			"https://github.com/vim-airline/vim-airline
 Plugin 'vim-airline/vim-airline-themes'			" Airline Themes
