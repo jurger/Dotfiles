@@ -1,7 +1,7 @@
 set incsearch
 syntax on
 "----------Plugins ---------------------------------
-"https://github.com/VundleVim/Vundle.vim
+"git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim/
