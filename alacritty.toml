@@ -1,7 +1,6 @@
 [shell]
 #args = ['--login']
 #working_directory ="C:\\Users\\" 
-#program = "C:\\Users\\uapet\\OneDrive\\FarPortable\\Far.exe"
 program = "cmd"
 #
 [cursor]
