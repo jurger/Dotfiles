@@ -76,7 +76,10 @@ vim.opt.scrolloff = 10
 vim.keymap.set("n", "<C-q>", "<S-z><S-q>")
 vim.keymap.set("i", "<S-Insert>", "<C-R>+", { noremap = true, silent = true })
 vim.keymap.set("n", "<S-Insert>", '"+p', { noremap = true, silent = true })
+vim.keymap.set("i", "<C-v", "<C-R>+", { noremap = true, silent = true })
+vim.keymap.set("n", "<C-v>", '"+p', { noremap = true, silent = true })
 vim.keymap.set("n", "<Esc><Esc>", "<S-z><S-q>")
+vim.keymap.set("n", "<Esc> w", "<S-z><S-z>")
 -- ___________________________________________________________________________
 --
 --
